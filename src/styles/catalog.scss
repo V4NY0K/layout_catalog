@@ -1,0 +1,27 @@
+@use '/src/styles/variables.scss' as vars;
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 46px 48px;
+  padding: 50px 40px;
+  justify-content: center;
+}
+
+@media (min-width: 488px) {
+  .catalog {
+    $column-count: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    $column-count: 3;
+  }
+}
+
+@media (min-width: 1024px) {
+  .catalog {
+    $column-count: 4;
+  }
+}
