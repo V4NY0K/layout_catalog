@@ -56,21 +56,21 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 16px;
-  }
 
-  &__price-label {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    color: vars.$secondary-text-color;
-  }
+    &-label {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: vars.$secondary-text-color;
+    }
 
-  &__price-value {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: 0%;
-    color: vars.$primary-text-color;
+    &-value {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 18px;
+      letter-spacing: 0%;
+      color: vars.$primary-text-color;
+    }
   }
 
   &__buy {
